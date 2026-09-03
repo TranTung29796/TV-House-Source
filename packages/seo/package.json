@@ -1,0 +1,27 @@
+{
+  "name": "@datbuilds/seo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf .turbo node_modules"
+  },
+  "dependencies": {
+    "@datbuilds/config": "workspace:*"
+  },
+  "devDependencies": {
+    "@datbuilds/eslint-config": "workspace:*",
+    "@datbuilds/tsconfig": "workspace:*",
+    "eslint": "^9.11.1",
+    "next": "^15.0.0",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "next": "^15.0.0"
+  }
+}

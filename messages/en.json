@@ -1,0 +1,304 @@
+{
+  "common": {
+    "productName": "Web Template Copy Smoke",
+    "companyName": "XSolt"
+  },
+  "nav": {
+    "product": "Product",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "login": "Login",
+    "startFree": "Get started",
+    "switchToDark": "Switch to dark mode",
+    "switchToLight": "Switch to light mode",
+    "languageLabel": "Language",
+    "localeEnglish": "EN",
+    "localeGerman": "DE",
+    "proPlan": "Pro plan"
+  },
+  "overview": {
+    "heroTitle": "Web Template Copy Smoke keeps the core workflow focused from first signal to useful result.",
+    "heroDescription": "Built for internal product builders: web products need a stable copied template with connected backend and database runtime",
+    "primaryCta": "Get started",
+    "secondaryCta": "See how it works"
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "Move from first signal to shipped outcome in four steps.",
+    "description": "Each step is generated from the operating flow behind Create a web product from the canonical copied web runtime template. Keep web, backend, and data.",
+    "signalChips": {
+      "detect": "Capture",
+      "prioritize": "Review",
+      "recover": "Prioritize"
+    },
+    "steps": {
+      "capture": {
+        "step": "01",
+        "title": "Open product",
+        "body": "Start here so internal product builders can connect the product context and get the workflow ready without setup drift.",
+        "points": [
+          "Input",
+          "Context",
+          "Ready state"
+        ]
+      },
+      "detect": {
+        "step": "02",
+        "title": "Authenticate if required",
+        "body": "This is where Web Template Copy Smoke exposes friction, missing signal, or operational delay inside the core path.",
+        "points": [
+          "Blocker",
+          "Signal",
+          "Path"
+        ]
+      },
+      "impact": {
+        "step": "03",
+        "title": "Enter primary workflow data",
+        "body": "Frame the result as a clear priority so the team knows what matters, who owns it, and what happens next.",
+        "points": [
+          "Priority",
+          "Owner",
+          "Next move"
+        ]
+      },
+      "action": {
+        "step": "04",
+        "title": "Submit primary action",
+        "body": "Close the loop with outcome tracking, recovery, and the next user-facing action after the change ships.",
+        "points": [
+          "Outcome",
+          "Follow-up",
+          "Impact"
+        ]
+      }
+    },
+    "templateRuleLabel": "Template rule",
+    "templateRuleBody": "For each product, replace the 4 steps with the real solution flow: user input, core processing, result, and action."
+  },
+  "pricing": {
+    "title": "Pricing for Web Template Copy Smoke without plan sprawl.",
+    "description": "Clear levels for internal product builders with upgrade paths tied to actual product usage.",
+    "monthlyLabel": "Monthly",
+    "yearlyLabel": "Yearly",
+    "yearlyDiscountLabel": "-20%",
+    "featuredLabel": "Recommended",
+    "startPlan": "Start {plan}",
+    "startingCheckout": "Starting checkout...",
+    "checkoutUnavailable": "Checkout is unavailable right now.",
+    "choosePlan": "Choose plan",
+    "intervals": {
+      "month": "/month",
+      "year": "/year",
+      "lifetime": " lifetime",
+      "free": ""
+    },
+    "entitlements": {
+      "coreWorkflow": "Core Workflow",
+      "analyticsStandard": "Analytics Standard"
+    }
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "createAccount": "Create account",
+    "drawerLoginSubtitle": "Enter your email to receive a magic link.",
+    "pageLoginSubtitle": "Enter your email and we will send you a magic link.",
+    "drawerSignupSubtitle": "Create your account with a magic link.",
+    "pageSignupSubtitle": "Enter your name and email to receive a magic link.",
+    "magicLinkSent": "Check your email for the magic link.",
+    "loginRequestFailed": "We could not start the sign-in request. Try again.",
+    "magicLinkSignupSent": "Check your email for the magic link to finish creating the account.",
+    "resumeCheckout": "Check your email, then the checkout flow will resume after sign in.",
+    "localDemo": "Local demo access uses this email: {email}",
+    "emailAddress": "Email address",
+    "fullName": "Full name",
+    "emailPlaceholder": "name@company.com",
+    "namePlaceholder": "Alex Mercer",
+    "sendMagicLink": "Send magic link",
+    "sendingMagicLink": "Sending magic link...",
+    "needAccount": "Need an account?",
+    "signUp": "Sign up",
+    "backToSignIn": "Back to Sign In",
+    "closeLoginPanel": "Close login panel"
+  },
+  "account": {
+    "profile": "Profile",
+    "profileDescription": "Basic account identity used across this product.",
+    "displayName": "Display name",
+    "avatarUrl": "Avatar URL",
+    "updateAvatar": "Update avatar",
+    "yourName": "Your name",
+    "saveProfile": "Save profile",
+    "planBilling": "Plan & Billing",
+    "planBillingDescription": "Current access level, renewal state, and billing actions.",
+    "plan": "Plan",
+    "status": "Status",
+    "renewal": "Renewal",
+    "viewPlanLimits": "View plan limits",
+    "billingPortal": "Billing portal",
+    "openingBillingPortal": "Opening billing portal...",
+    "upgradePlan": "Upgrade plan",
+    "viewPricing": "View pricing",
+    "manageSubscription": "Manage subscription",
+    "security": "Security",
+    "securityDescription": "Session state and account lifecycle actions.",
+    "session": "Session",
+    "emailStatus": "Email status",
+    "logout": "Logout",
+    "deleteAccount": "Delete account",
+    "deleteAccountTitle": "Delete account",
+    "deleteAccountDescription": "Delete account will archive the profile in the product database and sign out the current session.",
+    "updated": "Profile updated.",
+    "portalUnavailable": "Billing portal is not available right now.",
+    "databaseUnconfigured": "Database is not configured for local profile changes.",
+    "forbiddenBilling": "Only workspace owners or admins can manage billing.",
+    "invalidProfile": "Profile input is invalid. Check the avatar URL format and try again.",
+    "available": "Available",
+    "upgradeRequired": "Upgrade required",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "verified": "Verified",
+    "notAvailable": "Not available",
+    "free": "Free",
+    "activePlan": "Active plan"
+  },
+  "faq": {
+    "title": "Help & FAQ",
+    "description": "Four clusters for the questions users actually ask about {productName}.",
+    "heroTitleLead": "Help &",
+    "heroTitleAccent": "FAQ",
+    "lastUpdated": "Last updated",
+    "ctaTitle": "Still need an answer?",
+    "ctaBody": "Reach out to the support team for billing, account, or setup questions that need a direct response.",
+    "ctaButton": "Contact Support",
+    "quickActions": {
+      "supportTitle": "Contact support",
+      "supportBody": "Ask a question, report an issue, or get direct help.",
+      "pricingTitle": "View pricing",
+      "pricingBody": "Review plans, billing, and upgrade options."
+    },
+    "cards": {
+      "plans": "Plans & Pricing",
+      "billing": "Billing & Refunds",
+      "access": "Access & Recovery",
+      "account": "Account Actions",
+      "privacy": "Privacy & Data",
+      "support": "Troubleshooting"
+    },
+    "sections": {
+      "pricing": "Pricing & Billing",
+      "account": "Account",
+      "privacy": "Privacy & Data",
+      "troubleshooting": "Troubleshooting"
+    },
+    "items": {
+      "plansQuestion": "Which plans are available?",
+      "plansAnswer": "{plans}.",
+      "billingQuestion": "How does billing work?",
+      "billingAnswer": "Paid plans use {provider} for checkout and renewals.",
+      "switchQuestion": "Can I change plans later?",
+      "switchAnswer": "Yes. Upgrade from Pricing and manage changes in Billing.",
+      "refundQuestion": "What is the refund policy?",
+      "accountManageQuestion": "Where is account management?",
+      "accountManageAnswer": "Open Account for profile, subscription, billing, and security settings.",
+      "recoverQuestion": "How do I recover access?",
+      "recoverAnswer": "Use your current sign-in provider's reset flow.",
+      "deleteQuestion": "How do I delete my account?",
+      "deleteAnswer": "Use Delete account when account management is enabled.",
+      "dataStoredQuestion": "What data is stored?",
+      "dataStoredAnswer": "Only the account, usage, billing, and product data needed to run the service.",
+      "thirdPartyQuestion": "Is data shared with third parties?",
+      "thirdPartyAnswer": "Only with providers used for auth, billing, analytics, or support.",
+      "retentionQuestion": "How long is data kept?",
+      "cantLoginQuestion": "I can't sign in.",
+      "cantLoginAnswer": "Check the sign-in method first, then retry recovery.",
+      "paymentFailedQuestion": "My payment failed.",
+      "paymentFailedAnswer": "Try again with updated billing details or another payment method.",
+      "actionUnavailableQuestion": "Why is this action unavailable?",
+      "actionUnavailableWithDb": "Some actions require database-backed account management. If it is still unavailable, contact support.",
+      "actionUnavailableWithoutDb": "Some actions require database-backed account management. In local template mode, they may stay unavailable until the database is configured."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "A short view of how {productName} collects, uses, and protects product data.",
+    "heroTitleLead": "Privacy",
+    "heroTitleAccent": "Policy",
+    "heroDescription": "Your privacy is important to us. This policy explains what data we collect, how we use it, and the choices you have.",
+    "lastUpdated": "Last updated",
+    "ctaTitle": "Questions about your privacy?",
+    "ctaBody": "We're here to help. Reach out anytime and we'll get back to you as soon as possible.",
+    "ctaButton": "Contact Privacy Team",
+    "sections": {
+      "collect": "What We Collect",
+      "collectBody": "We collect the account, usage, billing, and workspace records needed to operate the service.",
+      "use": "How We Use It",
+      "useBody": "Data is used to run the product, secure access, process billing, and support reliability.",
+      "share": "Third-Party Services",
+      "shareBody": "Data is shared only with configured providers required for billing, authentication, email, analytics, or infrastructure. Current payment flow uses {provider}.",
+      "retain": "Retention",
+      "rights": "Your Rights",
+      "rightsBody": "You may request access, correction, deletion, or export where local law gives those rights.",
+      "contact": "Privacy Contact",
+      "contactBody": "For privacy questions, contact {email} or use the support path inside the product."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "The short version of the rules for using {productName}.",
+    "heroTitleLead": "Terms of",
+    "heroTitleAccent": "Service",
+    "heroDescription": "These terms explain how the product works, what responsibilities apply to your account, and how billing and legal use are handled.",
+    "lastUpdated": "Last updated",
+    "ctaTitle": "Questions about these terms?",
+    "ctaBody": "If anything is unclear, contact us and we will help you understand the terms that apply to your use of the product.",
+    "ctaButton": "Contact Legal Team",
+    "sections": {
+      "scope": "Use of Service",
+      "scopeBody": "Using {productName} means you agree to the active terms, product rules, and related policies.",
+      "account": "Accounts",
+      "accountBody": "You are responsible for accurate account details, secure credentials, and activity under your login.",
+      "billing": "Billing & Plans",
+      "billingLead": "Paid plans are processed by {provider}. Pricing, renewal cadence, and limits are shown on the",
+      "billingLink": "pricing page",
+      "billingTail": "and at checkout.",
+      "content": "Content & IP",
+      "contentBody": "You keep rights to your content, while the product and its software, design, and branding remain owned by {companyName}.",
+      "availability": "Availability & Liability",
+      "availabilityBody": "The service is provided as available. Outages, maintenance, and provider failures may affect access from time to time.",
+      "contact": "Terms Contact",
+      "contactBody": "For terms questions, contact {email}. Governing law is {law}."
+    }
+  },
+  "footer": {
+    "product": "Product",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "faq": "FAQ",
+    "description": "Web Template Copy Smoke helps internal product builders move through the core workflow with less friction and clearer outcomes."
+  },
+  "errors": {
+    "notFoundTitle": "Page not found.",
+    "notFoundDescription": "The page you are looking for doesn't exist or has been moved.",
+    "backHome": "Back Home",
+    "openAccount": "Open Account",
+    "globalTitle": "Something went wrong.",
+    "globalDescription": "The error was logged. Try reloading the page or return to the home route.",
+    "tryAgain": "Try Again"
+  },
+  "loading": {
+    "label": "Loading"
+  },
+  "status": {
+    "demoButton": "Show status demo",
+    "successTitle": "Success",
+    "successMessage": "The action completed and the data was saved.",
+    "warningTitle": "Warning",
+    "warningMessage": "Something needs attention before the flow can continue.",
+    "errorTitle": "Error",
+    "errorMessage": "The request failed. Please try again."
+  }
+}

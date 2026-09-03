@@ -1,0 +1,120 @@
+{
+  "marketing": {
+    "overview": {
+      "heroTitle": "Find where users get blocked before they disappear.",
+      "heroDescription": "Use this base narrative as the source locale input for product marketing content generation.",
+      "primaryCta": "Start Free",
+      "secondaryCta": "View Demo"
+    },
+    "howItWorks": {
+      "eyebrow": "How it works",
+      "title": "Explain the product flow in four simple steps.",
+      "description": "Replace each step with the actual workflow for the generated product.",
+      "signalChips": [
+        {
+          "label": "Detect",
+          "icon": "detect"
+        }
+      ],
+      "steps": [
+        {
+          "step": "01",
+          "title": "Capture the starting context",
+          "body": "Describe the first user or system signal the product receives.",
+          "points": ["Entry point"],
+          "icon": "capture"
+        },
+        {
+          "step": "02",
+          "title": "Detect the core problem",
+          "body": "Describe how the product identifies the bottleneck or opportunity.",
+          "points": ["Blocking step"],
+          "icon": "detect"
+        },
+        {
+          "step": "03",
+          "title": "Estimate impact",
+          "body": "Describe how the product prioritizes the issue based on urgency or value.",
+          "points": ["Priority signal"],
+          "icon": "impact"
+        },
+        {
+          "step": "04",
+          "title": "Trigger the next action",
+          "body": "Describe the action, recommendation, or workflow the product drives next.",
+          "points": ["Follow-up action"],
+          "icon": "action"
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Simple pricing that grows with your product.",
+      "description": "Replace this with the pricing narrative for the generated product.",
+      "monthlyLabel": "Monthly",
+      "yearlyLabel": "Yearly",
+      "yearlyDiscountLabel": "-20%",
+      "featuredLabel": "Recommended"
+    }
+  },
+  "translations": {
+    "de": {
+      "marketing": {
+        "overview": {
+          "heroTitle": "Finde Blockaden im Nutzerfluss, bevor Nutzer abspringen.",
+          "heroDescription": "Nutze dieses Basisszenario als Source-Locale-Eingabe für die Generierung der Produkt-Marketingtexte.",
+          "primaryCta": "Kostenlos starten",
+          "secondaryCta": "Demo ansehen"
+        },
+        "howItWorks": {
+          "eyebrow": "So funktioniert's",
+          "title": "Erkläre den Produktfluss in vier einfachen Schritten.",
+          "description": "Ersetze jeden Schritt durch den echten Workflow des generierten Produkts.",
+          "signalChips": [
+            {
+              "label": "Erkennen",
+              "icon": "detect"
+            }
+          ],
+          "steps": [
+            {
+              "step": "01",
+              "title": "Startkontext erfassen",
+              "body": "Beschreibe das erste Nutzer- oder Systemsiganl, das das Produkt erhält.",
+              "points": ["Einstiegspunkt"],
+              "icon": "capture"
+            },
+            {
+              "step": "02",
+              "title": "Kernproblem erkennen",
+              "body": "Beschreibe, wie das Produkt den Engpass oder die Chance identifiziert.",
+              "points": ["Blockierender Schritt"],
+              "icon": "detect"
+            },
+            {
+              "step": "03",
+              "title": "Impact bewerten",
+              "body": "Beschreibe, wie das Produkt das Problem nach Dringlichkeit oder Wert priorisiert.",
+              "points": ["Prioritätssignal"],
+              "icon": "impact"
+            },
+            {
+              "step": "04",
+              "title": "Nächste Aktion auslösen",
+              "body": "Beschreibe die Aktion, Empfehlung oder den Workflow, den das Produkt als Nächstes anstößt.",
+              "points": ["Folgeaktion"],
+              "icon": "action"
+            }
+          ]
+        },
+        "pricing": {
+          "title": "Einfache Preise, die mit deinem Produkt wachsen.",
+          "description": "Ersetze das durch die Pricing-Narrative des generierten Produkts.",
+          "monthlyLabel": "Monatlich",
+          "yearlyLabel": "Jährlich",
+          "yearlyDiscountLabel": "-20%",
+          "featuredLabel": "Empfohlen"
+        }
+      }
+    }
+  }
+}

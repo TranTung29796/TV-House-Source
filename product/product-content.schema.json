@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://xsolt.local/schemas/product-content.schema.json",
+  "title": "Product Template Localized Content",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["locales"],
+  "properties": {
+    "locales": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "de"],
+      "properties": {
+        "en": { "$ref": "#/$defs/localeContent" },
+        "de": { "$ref": "#/$defs/localeContent" }
+      }
+    }
+  },
+  "$defs": {
+    "icon": {
+      "type": "string",
+      "enum": ["capture", "detect", "impact", "action"]
+    },
+    "signalChip": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "icon"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "icon": { "$ref": "#/$defs/icon" }
+      }
+    },
+    "howItWorksStep": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["step", "title", "body", "points", "icon"],
+      "properties": {
+        "step": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "body": { "type": "string", "minLength": 1 },
+        "points": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "icon": { "$ref": "#/$defs/icon" },
+        "preview": { "$ref": "#/$defs/howItWorksPreview" }
+      }
+    },
+    "howItWorksPreview": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "title", "label", "value", "status", "action"],
+          "properties": {
+            "type": { "const": "form" },
+            "title": { "type": "string", "minLength": 1 },
+            "label": { "type": "string", "minLength": 1 },
+            "value": { "type": "string", "minLength": 1 },
+            "status": { "type": "string", "minLength": 1 },
+            "action": { "type": "string", "minLength": 1 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "title", "metrics"],
+          "properties": {
+            "type": { "const": "bars" },
+            "title": { "type": "string", "minLength": 1 },
+            "metrics": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["label", "value", "fill"],
+                "properties": {
+                  "label": { "type": "string", "minLength": 1 },
+                  "value": { "type": "string", "minLength": 1 },
+                  "fill": { "type": "number", "minimum": 0, "maximum": 100 }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "title", "rows"],
+          "properties": {
+            "type": { "const": "table" },
+            "title": { "type": "string", "minLength": 1 },
+            "rows": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["label", "value"],
+                "properties": {
+                  "label": { "type": "string", "minLength": 1 },
+                  "value": { "type": "string", "minLength": 1 }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "title", "beforeLabel", "afterLabel"],
+          "properties": {
+            "type": { "const": "line" },
+            "title": { "type": "string", "minLength": 1 },
+            "beforeLabel": { "type": "string", "minLength": 1 },
+            "afterLabel": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "localeContent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["marketing"],
+      "properties": {
+        "marketing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["overview", "howItWorks", "pricing"],
+          "properties": {
+            "overview": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["heroTitle", "heroDescription", "primaryCta", "secondaryCta"],
+              "properties": {
+                "heroTitle": { "type": "string", "minLength": 1 },
+                "heroDescription": { "type": "string", "minLength": 1 },
+                "primaryCta": { "type": "string", "minLength": 1 },
+                "secondaryCta": { "type": "string", "minLength": 1 }
+              }
+            },
+            "howItWorks": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["eyebrow", "title", "description", "signalChips", "steps"],
+              "properties": {
+                "eyebrow": { "type": "string", "minLength": 1 },
+                "title": { "type": "string", "minLength": 1 },
+                "description": { "type": "string", "minLength": 1 },
+                "signalChips": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": { "$ref": "#/$defs/signalChip" }
+                },
+                "steps": {
+                  "type": "array",
+                  "minItems": 4,
+                  "items": { "$ref": "#/$defs/howItWorksStep" }
+                }
+              }
+            },
+            "pricing": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "description",
+                "monthlyLabel",
+                "yearlyLabel",
+                "yearlyDiscountLabel",
+                "featuredLabel"
+              ],
+              "properties": {
+                "title": { "type": "string", "minLength": 1 },
+                "description": { "type": "string", "minLength": 1 },
+                "monthlyLabel": { "type": "string", "minLength": 1 },
+                "yearlyLabel": { "type": "string", "minLength": 1 },
+                "yearlyDiscountLabel": { "type": "string", "minLength": 1 },
+                "featuredLabel": { "type": "string", "minLength": 1 }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

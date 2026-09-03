@@ -1,0 +1,31 @@
+{
+  "name": "@datbuilds/payments",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./checkout": "./src/checkout.ts",
+    "./subscription": "./src/subscription.ts",
+    "./webhook": "./src/webhook/handler.ts",
+    "./portal": "./src/customer-portal.ts",
+    "./schemas": "./src/schemas.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf .turbo node_modules"
+  },
+  "dependencies": {
+    "@lemonsqueezy/lemonsqueezy.js": "^3.3.1",
+    "@datbuilds/config": "workspace:*",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@datbuilds/eslint-config": "workspace:*",
+    "@datbuilds/tsconfig": "workspace:*",
+    "eslint": "^9.11.1",
+    "typescript": "^5.6.2"
+  }
+}

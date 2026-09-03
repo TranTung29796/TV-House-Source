@@ -1,0 +1,77 @@
+{
+  "product": {
+    "code": "web-template-copy-smoke",
+    "name": "Web Template Copy Smoke",
+    "platform": "web"
+  },
+  "plans": [
+    {
+      "code": "free",
+      "name": "Free",
+      "description": "Validate the core workflow before upgrading.",
+      "interval": "free",
+      "priceAmount": 0,
+      "currency": "USD",
+      "priceLabel": "$0",
+      "provider": "manual",
+      "providerVariantId": null,
+      "entitlements": [
+        "core.workflow"
+      ],
+      "featured": false,
+      "active": true,
+      "sortOrder": 10,
+      "metadata": {
+        "variant_env": null,
+        "source": "web_pipeline.py"
+      }
+    },
+    {
+      "code": "pro",
+      "name": "Pro",
+      "description": "Full MVP workflow for regular production usage.",
+      "interval": "month",
+      "priceAmount": 1900,
+      "currency": "USD",
+      "priceLabel": "$19",
+      "provider": "lemon_squeezy",
+      "providerVariantId": "REPLACE_WITH_LEMON_SQUEEZY_VARIANT_PRO",
+      "entitlements": [
+        "core.workflow",
+        "analytics.standard",
+        "support.email"
+      ],
+      "featured": true,
+      "active": true,
+      "sortOrder": 20,
+      "metadata": {
+        "variant_env": "LEMON_SQUEEZY_VARIANT_PRO",
+        "source": "web_pipeline.py"
+      }
+    },
+    {
+      "code": "lifetime",
+      "name": "Lifetime",
+      "description": "One-time access for early adopters and launch offers.",
+      "interval": "lifetime",
+      "priceAmount": 14900,
+      "currency": "USD",
+      "priceLabel": "$149",
+      "provider": "lemon_squeezy",
+      "providerVariantId": "REPLACE_WITH_LEMON_SQUEEZY_VARIANT_LIFETIME",
+      "entitlements": [
+        "core.workflow",
+        "analytics.standard",
+        "support.email",
+        "lifetime.updates"
+      ],
+      "featured": false,
+      "active": true,
+      "sortOrder": 30,
+      "metadata": {
+        "variant_env": "LEMON_SQUEEZY_VARIANT_LIFETIME",
+        "source": "web_pipeline.py"
+      }
+    }
+  ]
+}

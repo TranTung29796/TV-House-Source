@@ -1,0 +1,304 @@
+{
+  "common": {
+    "productName": "Web Template Copy Smoke",
+    "companyName": "XSolt"
+  },
+  "nav": {
+    "product": "Produkt",
+    "howItWorks": "So funktioniert's",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "login": "Anmelden",
+    "startFree": "Loslegen",
+    "switchToDark": "Zum dunklen Modus wechseln",
+    "switchToLight": "Zum hellen Modus wechseln",
+    "languageLabel": "Sprache",
+    "localeEnglish": "EN",
+    "localeGerman": "DE",
+    "proPlan": "Pro-Tarif"
+  },
+  "overview": {
+    "heroTitle": "Web Template Copy Smoke h\u00e4lt den Kern-Workflow von Signal bis Ergebnis in einem fokussierten Ablauf.",
+    "heroDescription": "F\u00fcr internal product builders: web products need a stable copied template with connected backend and database runtime",
+    "primaryCta": "Loslegen",
+    "secondaryCta": "Ablauf ansehen"
+  },
+  "howItWorks": {
+    "eyebrow": "So funktioniert's",
+    "title": "Vom ersten Signal zum Ergebnis in vier Schritten.",
+    "description": "Der Ablauf orientiert sich direkt am Produkt-Workflow f\u00fcr web template copy smoke.",
+    "signalChips": {
+      "detect": "Erfassen",
+      "prioritize": "Pr\u00fcfen",
+      "recover": "Priorisieren"
+    },
+    "steps": {
+      "capture": {
+        "step": "01",
+        "title": "Open product",
+        "body": "Starte mit diesem Einstieg, damit internal product builders den Produktkontext ohne Reibung verbinden kann.",
+        "points": [
+          "Eingang",
+          "Kontext",
+          "Bereitschaft"
+        ]
+      },
+      "detect": {
+        "step": "02",
+        "title": "Authenticate if required",
+        "body": "Hier macht Web Template Copy Smoke sichtbar, wo im Ablauf Friktion, L\u00fccken oder Wartezeit entstehen.",
+        "points": [
+          "Engpass",
+          "Signal",
+          "Pfad"
+        ]
+      },
+      "impact": {
+        "step": "03",
+        "title": "Enter primary workflow data",
+        "body": "Verdichte das Ergebnis zu einer klaren Priorit\u00e4t mit Ownership und sofortigem n\u00e4chsten Schritt.",
+        "points": [
+          "Priorit\u00e4t",
+          "Owner",
+          "N\u00e4chster Schritt"
+        ]
+      },
+      "action": {
+        "step": "04",
+        "title": "Submit primary action",
+        "body": "Schlie\u00dfe den Kreis mit Ergebnis, Follow-up und dem Signal, ob der neue Ablauf wirklich besser funktioniert.",
+        "points": [
+          "Ergebnis",
+          "Follow-up",
+          "Wirkung"
+        ]
+      }
+    },
+    "templateRuleLabel": "Template-Regel",
+    "templateRuleBody": "Ersetze f\u00fcr jedes Produkt die vier Schritte durch den echten L\u00f6sungsfluss: Nutzereingabe, Kernverarbeitung, Ergebnis und Aktion."
+  },
+  "pricing": {
+    "title": "Preise f\u00fcr Web Template Copy Smoke ohne unn\u00f6tige Komplexit\u00e4t.",
+    "description": "Klar gestaffelt f\u00fcr internal product builders und direkt am Produktwert ausgerichtet.",
+    "monthlyLabel": "Monatlich",
+    "yearlyLabel": "J\u00e4hrlich",
+    "yearlyDiscountLabel": "-20%",
+    "featuredLabel": "Empfohlen",
+    "startPlan": "{plan} starten",
+    "startingCheckout": "Checkout wird gestartet...",
+    "checkoutUnavailable": "Der Checkout ist derzeit nicht verf\u00fcgbar.",
+    "choosePlan": "Tarif w\u00e4hlen",
+    "intervals": {
+      "month": "/Monat",
+      "year": "/Jahr",
+      "lifetime": " dauerhaft",
+      "free": ""
+    },
+    "entitlements": {
+      "coreWorkflow": "Kern-Workflow",
+      "analyticsStandard": "Analytics Standard"
+    }
+  },
+  "auth": {
+    "signIn": "Anmelden",
+    "createAccount": "Konto erstellen",
+    "drawerLoginSubtitle": "Gib deine E-Mail ein, um einen Magic Link zu erhalten.",
+    "pageLoginSubtitle": "Gib deine E-Mail ein und wir senden dir einen Magic Link.",
+    "drawerSignupSubtitle": "Erstelle dein Konto mit einem Magic Link.",
+    "pageSignupSubtitle": "Gib deinen Namen und deine E-Mail ein, um einen Magic Link zu erhalten.",
+    "magicLinkSent": "Pr\u00fcfe deine E-Mails auf den Magic Link.",
+    "loginRequestFailed": "Die Anmeldung konnte nicht gestartet werden. Versuche es erneut.",
+    "magicLinkSignupSent": "Pr\u00fcfe deine E-Mails auf den Magic Link, um das Konto fertig einzurichten.",
+    "resumeCheckout": "Pr\u00fcfe deine E-Mails, danach wird der Checkout nach der Anmeldung fortgesetzt.",
+    "localDemo": "Lokaler Demo-Zugang nutzt diese E-Mail: {email}",
+    "emailAddress": "E-Mail-Adresse",
+    "fullName": "Vollst\u00e4ndiger Name",
+    "emailPlaceholder": "name@firma.de",
+    "namePlaceholder": "Alex Mercer",
+    "sendMagicLink": "Magic Link senden",
+    "sendingMagicLink": "Magic Link wird gesendet...",
+    "needAccount": "Du brauchst ein Konto?",
+    "signUp": "Registrieren",
+    "backToSignIn": "Zur\u00fcck zur Anmeldung",
+    "closeLoginPanel": "Login-Panel schlie\u00dfen"
+  },
+  "account": {
+    "profile": "Profil",
+    "profileDescription": "Grundlegende Account-Identit\u00e4t, die in diesem Produkt verwendet wird.",
+    "displayName": "Anzeigename",
+    "avatarUrl": "Avatar-URL",
+    "updateAvatar": "Avatar aktualisieren",
+    "yourName": "Dein Name",
+    "saveProfile": "Profil speichern",
+    "planBilling": "Tarif & Abrechnung",
+    "planBillingDescription": "Zugriffslevel, Verl\u00e4ngerung und Abrechnungsaktionen.",
+    "plan": "Tarif",
+    "status": "Status",
+    "renewal": "Verl\u00e4ngerung",
+    "viewPlanLimits": "Tariflimits ansehen",
+    "billingPortal": "Billing-Portal",
+    "openingBillingPortal": "Billing-Portal wird ge\u00f6ffnet...",
+    "upgradePlan": "Tarif upgraden",
+    "viewPricing": "Preise ansehen",
+    "manageSubscription": "Subscription verwalten",
+    "security": "Sicherheit",
+    "securityDescription": "Sitzungsstatus und Account-Aktionen.",
+    "session": "Sitzung",
+    "emailStatus": "E-Mail-Status",
+    "logout": "Abmelden",
+    "deleteAccount": "Account l\u00f6schen",
+    "deleteAccountTitle": "Account l\u00f6schen",
+    "deleteAccountDescription": "Das L\u00f6schen archiviert das Profil in der Produktdatenbank und meldet die aktuelle Sitzung ab.",
+    "updated": "Profil aktualisiert.",
+    "portalUnavailable": "Das Billing-Portal ist derzeit nicht verf\u00fcgbar.",
+    "databaseUnconfigured": "Die Datenbank ist f\u00fcr lokale Profil\u00e4nderungen nicht konfiguriert.",
+    "forbiddenBilling": "Nur Workspace-Owner oder Admins k\u00f6nnen die Abrechnung verwalten.",
+    "invalidProfile": "Die Profileingabe ist ung\u00fcltig. Pr\u00fcfe das Avatar-URL-Format und versuche es erneut.",
+    "available": "Verf\u00fcgbar",
+    "upgradeRequired": "Upgrade erforderlich",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "pending": "Ausstehend",
+    "verified": "Verifiziert",
+    "notAvailable": "Nicht verf\u00fcgbar",
+    "free": "Kostenlos",
+    "activePlan": "Aktiver Tarif"
+  },
+  "faq": {
+    "title": "Hilfe & FAQ",
+    "description": "Vier Bereiche f\u00fcr die Fragen, die Nutzer zu {productName} tats\u00e4chlich stellen.",
+    "heroTitleLead": "Hilfe &",
+    "heroTitleAccent": "FAQ",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "ctaTitle": "Noch eine offene Frage?",
+    "ctaBody": "Kontaktiere das Support-Team bei Fragen zu Billing, Account oder Setup, die eine direkte Antwort brauchen.",
+    "ctaButton": "Support kontaktieren",
+    "quickActions": {
+      "supportTitle": "Support kontaktieren",
+      "supportBody": "Frage stellen, Problem melden oder direkte Hilfe bekommen.",
+      "pricingTitle": "Pricing ansehen",
+      "pricingBody": "Tarife, Billing und Upgrade-Optionen pr\u00fcfen."
+    },
+    "cards": {
+      "plans": "Tarife & Preise",
+      "billing": "Billing & Erstattungen",
+      "access": "Zugriff & Wiederherstellung",
+      "account": "Account-Aktionen",
+      "privacy": "Datenschutz & Daten",
+      "support": "Probleml\u00f6sung"
+    },
+    "sections": {
+      "pricing": "Preise & Abrechnung",
+      "account": "Account",
+      "privacy": "Datenschutz & Daten",
+      "troubleshooting": "Probleml\u00f6sung"
+    },
+    "items": {
+      "plansQuestion": "Welche Tarife gibt es?",
+      "plansAnswer": "{plans}.",
+      "billingQuestion": "Wie funktioniert die Abrechnung?",
+      "billingAnswer": "Bezahlte Tarife laufen \u00fcber {provider} f\u00fcr Checkout und Verl\u00e4ngerungen.",
+      "switchQuestion": "Kann ich den Tarif sp\u00e4ter \u00e4ndern?",
+      "switchAnswer": "Ja. Upgrade \u00fcber Pricing und \u00c4nderungen in Billing verwalten.",
+      "refundQuestion": "Wie ist die R\u00fcckerstattungsregelung?",
+      "accountManageQuestion": "Wo verwalte ich meinen Account?",
+      "accountManageAnswer": "\u00d6ffne Account f\u00fcr Profil, Subscription, Billing und Sicherheit.",
+      "recoverQuestion": "Wie stelle ich den Zugriff wieder her?",
+      "recoverAnswer": "Nutze den Reset-Flow deines aktuellen Sign-in-Providers.",
+      "deleteQuestion": "Wie l\u00f6sche ich meinen Account?",
+      "deleteAnswer": "Nutze Account l\u00f6schen, wenn Account-Verwaltung aktiviert ist.",
+      "dataStoredQuestion": "Welche Daten werden gespeichert?",
+      "dataStoredAnswer": "Nur die Account-, Nutzungs-, Billing- und Produktdaten, die f\u00fcr den Betrieb n\u00f6tig sind.",
+      "thirdPartyQuestion": "Werden Daten mit Dritten geteilt?",
+      "thirdPartyAnswer": "Nur mit Anbietern f\u00fcr Auth, Billing, Analytics oder Support.",
+      "retentionQuestion": "Wie lange bleiben Daten gespeichert?",
+      "cantLoginQuestion": "Ich kann mich nicht anmelden.",
+      "cantLoginAnswer": "Pr\u00fcfe zuerst die Sign-in-Methode und versuche die Wiederherstellung erneut.",
+      "paymentFailedQuestion": "Meine Zahlung ist fehlgeschlagen.",
+      "paymentFailedAnswer": "Versuche es mit aktualisierten Zahlungsdaten oder einer anderen Zahlungsmethode erneut.",
+      "actionUnavailableQuestion": "Warum ist diese Aktion nicht verf\u00fcgbar?",
+      "actionUnavailableWithDb": "Einige Aktionen brauchen datenbankgest\u00fctzte Account-Verwaltung. Wenn sie weiter fehlt, kontaktiere den Support.",
+      "actionUnavailableWithoutDb": "Einige Aktionen brauchen datenbankgest\u00fctzte Account-Verwaltung. Im lokalen Template-Modus k\u00f6nnen sie fehlen, bis die Datenbank konfiguriert ist."
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerkl\u00e4rung",
+    "description": "Ein kurzer \u00dcberblick dar\u00fcber, wie {productName} Produktdaten erfasst, nutzt und sch\u00fctzt.",
+    "heroTitleLead": "Privacy",
+    "heroTitleAccent": "Policy",
+    "heroDescription": "Deine Privatsph\u00e4re ist uns wichtig. Diese Richtlinie erkl\u00e4rt, welche Daten wir erfassen, wie wir sie nutzen und welche Wahlm\u00f6glichkeiten du hast.",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "ctaTitle": "Fragen zu deinem Datenschutz?",
+    "ctaBody": "Wir helfen dir gern. Melde dich jederzeit und wir antworten so schnell wie m\u00f6glich.",
+    "ctaButton": "Privacy-Team kontaktieren",
+    "sections": {
+      "collect": "Was wir erfassen",
+      "collectBody": "Wir erfassen Account-, Nutzungs-, Billing- und Workspace-Daten, die f\u00fcr den Betrieb des Dienstes n\u00f6tig sind.",
+      "use": "Wie wir sie nutzen",
+      "useBody": "Daten werden genutzt, um das Produkt zu betreiben, Zugriffe zu sichern, Billing zu verarbeiten und Zuverl\u00e4ssigkeit zu unterst\u00fctzen.",
+      "share": "Drittanbieter",
+      "shareBody": "Daten werden nur mit konfigurierten Anbietern geteilt, die f\u00fcr Billing, Authentifizierung, E-Mail, Analytics oder Infrastruktur erforderlich sind. Der aktuelle Zahlungsfluss nutzt {provider}.",
+      "retain": "Aufbewahrung",
+      "rights": "Deine Rechte",
+      "rightsBody": "Du kannst Zugang, Korrektur, L\u00f6schung oder Export anfordern, soweit das lokale Recht diese Rechte vorsieht.",
+      "contact": "Datenschutzkontakt",
+      "contactBody": "Bei Fragen zum Datenschutz kontaktiere {email} oder nutze den Support-Weg im Produkt."
+    }
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "description": "Die Kurzfassung der Regeln f\u00fcr die Nutzung von {productName}.",
+    "heroTitleLead": "Terms of",
+    "heroTitleAccent": "Service",
+    "heroDescription": "Diese Bedingungen erkl\u00e4ren, wie das Produkt genutzt wird, welche Verantwortlichkeiten f\u00fcr deinen Account gelten und wie Abrechnung und rechtliche Nutzung geregelt sind.",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "ctaTitle": "Fragen zu diesen Bedingungen?",
+    "ctaBody": "Wenn etwas unklar ist, kontaktiere uns. Wir helfen dir dabei, die Bedingungen f\u00fcr die Nutzung des Produkts zu verstehen.",
+    "ctaButton": "Legal-Team kontaktieren",
+    "sections": {
+      "scope": "Nutzung des Dienstes",
+      "scopeBody": "Mit der Nutzung von {productName} stimmst du den aktiven Bedingungen, Produktregeln und zugeh\u00f6rigen Richtlinien zu.",
+      "account": "Accounts",
+      "accountBody": "Du bist verantwortlich f\u00fcr korrekte Account-Daten, sichere Zugangsdaten und Aktivit\u00e4ten unter deinem Login.",
+      "billing": "Billing & Tarife",
+      "billingLead": "Bezahlte Tarife werden \u00fcber {provider} abgewickelt. Preise, Verl\u00e4ngerungsrhythmus und Limits findest du auf der",
+      "billingLink": "Pricing-Seite",
+      "billingTail": "und im Checkout.",
+      "content": "Inhalte & IP",
+      "contentBody": "Du beh\u00e4ltst die Rechte an deinen Inhalten, w\u00e4hrend Produkt, Software, Design und Branding Eigentum von {companyName} bleiben.",
+      "availability": "Verf\u00fcgbarkeit & Haftung",
+      "availabilityBody": "Der Dienst wird wie verf\u00fcgbar bereitgestellt. Ausf\u00e4lle, Wartung und Provider-Probleme k\u00f6nnen den Zugriff zeitweise beeinflussen.",
+      "contact": "Kontakt zu den Bedingungen",
+      "contactBody": "Bei Fragen zu den Bedingungen kontaktiere {email}. Anwendbares Recht ist {law}."
+    }
+  },
+  "footer": {
+    "product": "Produkt",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "faq": "FAQ",
+    "description": "Web Template Copy Smoke hilft internal product builders, den Kern-Workflow klarer umzusetzen und web products need a stable copied template with connected backend and database runtime."
+  },
+  "errors": {
+    "notFoundTitle": "Seite nicht gefunden.",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "backHome": "Zur Startseite",
+    "openAccount": "Account \u00f6ffnen",
+    "globalTitle": "Etwas ist schiefgelaufen.",
+    "globalDescription": "Der Fehler wurde protokolliert. Lade die Seite neu oder gehe zur Startseite zur\u00fcck.",
+    "tryAgain": "Erneut versuchen"
+  },
+  "loading": {
+    "label": "L\u00e4dt"
+  },
+  "status": {
+    "demoButton": "Status anzeigen",
+    "successTitle": "Erfolg",
+    "successMessage": "Die Aktion wurde abgeschlossen und die Daten wurden gespeichert.",
+    "warningTitle": "Warnung",
+    "warningMessage": "Etwas braucht Aufmerksamkeit, bevor der Flow weitergehen kann.",
+    "errorTitle": "Fehler",
+    "errorMessage": "Die Anfrage ist fehlgeschlagen. Bitte versuche es erneut."
+  }
+}

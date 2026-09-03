@@ -1,0 +1,63 @@
+{
+  "name": "web-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": "22.23.2",
+    "pnpm": ">=9 <10"
+  },
+  "scripts": {
+    "dev": "node --no-warnings ./node_modules/next/dist/bin/next dev --port 3005",
+    "build": "node --no-warnings ./node_modules/next/dist/bin/next build",
+    "start": "node --no-warnings ./node_modules/next/dist/bin/next start --port 3004",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --no-warnings tests/smoke.mjs",
+    "clean": "rm -rf .turbo .next",
+    "scaffold:prompt": "node scripts/scaffold-mvp-prompt.mjs",
+    "scaffold:product": "node scripts/scaffold-product.mjs",
+    "scaffold:product:ai": "node scripts/scaffold-product.mjs --industry ai",
+    "scaffold:product:marketing": "node scripts/scaffold-product.mjs --industry marketing",
+    "scaffold:product:seo": "node scripts/scaffold-product.mjs --industry seo",
+    "scaffold:product:crm": "node scripts/scaffold-product.mjs --industry crm",
+    "scaffold:product:finance": "node scripts/scaffold-product.mjs --industry finance",
+    "scaffold:product:internal-ops": "node scripts/scaffold-product.mjs --industry internal-ops"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@datbuilds/ai": "workspace:*",
+    "@datbuilds/analytics": "workspace:*",
+    "@datbuilds/auth": "workspace:*",
+    "@datbuilds/config": "workspace:*",
+    "@datbuilds/email": "workspace:*",
+    "@datbuilds/logging": "workspace:*",
+    "@datbuilds/payments": "workspace:*",
+    "@datbuilds/seo": "workspace:*",
+    "@datbuilds/support": "workspace:*",
+    "@datbuilds/ui": "workspace:*",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.446.0",
+    "next": "^15.0.0",
+    "next-intl": "^4.13.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.53.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@datbuilds/eslint-config": "workspace:*",
+    "@datbuilds/tailwind-config": "workspace:*",
+    "@datbuilds/tsconfig": "workspace:*",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.1",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.6.2"
+  }
+}

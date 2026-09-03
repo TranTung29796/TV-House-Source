@@ -1,0 +1,37 @@
+{
+  "name": "@datbuilds/auth",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./schemas": "./src/schemas.ts",
+    "./middleware": "./src/middleware.ts",
+    "./client/server": "./src/client/server.ts",
+    "./actions": "./src/actions/index.ts",
+    "./local-demo": "./src/local-demo.ts",
+    "./hooks": "./src/hooks/index.ts",
+    "./provider": "./src/providers/auth-provider.tsx"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf .turbo node_modules"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "^19.0.0",
+    "@datbuilds/eslint-config": "workspace:*",
+    "@datbuilds/tsconfig": "workspace:*",
+    "eslint": "^9.11.1",
+    "next": "^15.0.0",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0"
+  }
+}

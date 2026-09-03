@@ -1,0 +1,30 @@
+{
+  "name": "@datbuilds/support",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./widget": "./src/crisp-widget.tsx",
+    "./identify": "./src/identify.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf .turbo node_modules"
+  },
+  "dependencies": {
+    "@datbuilds/config": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/react": "^19.0.0",
+    "@datbuilds/eslint-config": "workspace:*",
+    "@datbuilds/tsconfig": "workspace:*",
+    "eslint": "^9.11.1",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "locales": {
+    "en": {
+      "marketing": {
+        "overview": {
+          "heroTitle": "Web Template Copy Smoke keeps the core workflow focused from first signal to useful result.",
+          "heroDescription": "Built for internal product builders: web products need a stable copied template with connected backend and database runtime",
+          "primaryCta": "Get started",
+          "secondaryCta": "See how it works"
+        },
+        "howItWorks": {
+          "eyebrow": "How it works",
+          "title": "Move from first signal to shipped outcome in four steps.",
+          "description": "Each step is generated from the operating flow behind Create a web product from the canonical copied web runtime template. Keep web, backend, and data.",
+          "signalChips": [
+            {
+              "label": "Capture",
+              "icon": "capture"
+            },
+            {
+              "label": "Review",
+              "icon": "detect"
+            },
+            {
+              "label": "Prioritize",
+              "icon": "impact"
+            },
+            {
+              "label": "Launch",
+              "icon": "action"
+            }
+          ],
+          "steps": [
+            {
+              "step": "01",
+              "title": "Open product",
+              "body": "Start here so internal product builders can connect the product context and get the workflow ready without setup drift.",
+              "points": [
+                "Input",
+                "Context",
+                "Ready state"
+              ],
+              "icon": "capture",
+              "preview": {
+                "type": "form",
+                "title": "Open product",
+                "label": "Input",
+                "value": "web-template-copy-smoke-workspace",
+                "status": "Sync active",
+                "action": "Connect"
+              }
+            },
+            {
+              "step": "02",
+              "title": "Authenticate if required",
+              "body": "This is where Web Template Copy Smoke exposes friction, missing signal, or operational delay inside the core path.",
+              "points": [
+                "Blocker",
+                "Signal",
+                "Path"
+              ],
+              "icon": "detect",
+              "preview": {
+                "type": "bars",
+                "title": "Authenticate if required",
+                "metrics": [
+                  {
+                    "label": "Blocker",
+                    "value": "24.6%",
+                    "fill": 92
+                  },
+                  {
+                    "label": "Signal",
+                    "value": "18.7%",
+                    "fill": 74
+                  },
+                  {
+                    "label": "Path",
+                    "value": "12.1%",
+                    "fill": 48
+                  }
+                ]
+              }
+            },
+            {
+              "step": "03",
+              "title": "Enter primary workflow data",
+              "body": "Frame the result as a clear priority so the team knows what matters, who owns it, and what happens next.",
+              "points": [
+                "Priority",
+                "Owner",
+                "Next move"
+              ],
+              "icon": "impact",
+              "preview": {
+                "type": "table",
+                "title": "Enter primary workflow data",
+                "rows": [
+                  {
+                    "label": "Priority",
+                    "value": "High"
+                  },
+                  {
+                    "label": "Owner",
+                    "value": "Assigned"
+                  },
+                  {
+                    "label": "Next move",
+                    "value": "Ready"
+                  }
+                ]
+              }
+            },
+            {
+              "step": "04",
+              "title": "Submit primary action",
+              "body": "Close the loop with outcome tracking, recovery, and the next user-facing action after the change ships.",
+              "points": [
+                "Outcome",
+                "Follow-up",
+                "Impact"
+              ],
+              "icon": "action",
+              "preview": {
+                "type": "line",
+                "title": "Submit primary action",
+                "beforeLabel": "Before",
+                "afterLabel": "After"
+              }
+            }
+          ]
+        },
+        "pricing": {
+          "title": "Pricing for Web Template Copy Smoke without plan sprawl.",
+          "description": "Clear levels for internal product builders with upgrade paths tied to actual product usage.",
+          "monthlyLabel": "Monthly",
+          "yearlyLabel": "Yearly",
+          "yearlyDiscountLabel": "-20%",
+          "featuredLabel": "Recommended"
+        }
+      }
+    },
+    "de": {
+      "marketing": {
+        "overview": {
+          "heroTitle": "Web Template Copy Smoke h\u00e4lt den Kern-Workflow von Signal bis Ergebnis in einem fokussierten Ablauf.",
+          "heroDescription": "F\u00fcr internal product builders: web products need a stable copied template with connected backend and database runtime",
+          "primaryCta": "Loslegen",
+          "secondaryCta": "Ablauf ansehen"
+        },
+        "howItWorks": {
+          "eyebrow": "So funktioniert's",
+          "title": "Vom ersten Signal zum Ergebnis in vier Schritten.",
+          "description": "Der Ablauf orientiert sich direkt am Produkt-Workflow f\u00fcr web template copy smoke.",
+          "signalChips": [
+            {
+              "label": "Erfassen",
+              "icon": "capture"
+            },
+            {
+              "label": "Pr\u00fcfen",
+              "icon": "detect"
+            },
+            {
+              "label": "Priorisieren",
+              "icon": "impact"
+            },
+            {
+              "label": "Umsetzen",
+              "icon": "action"
+            }
+          ],
+          "steps": [
+            {
+              "step": "01",
+              "title": "Open product",
+              "body": "Starte mit diesem Einstieg, damit internal product builders den Produktkontext ohne Reibung verbinden kann.",
+              "points": [
+                "Eingang",
+                "Kontext",
+                "Bereitschaft"
+              ],
+              "icon": "capture",
+              "preview": {
+                "type": "form",
+                "title": "Open product",
+                "label": "Eingang",
+                "value": "web-template-copy-smoke-workspace",
+                "status": "Sync aktiv",
+                "action": "Verbinden"
+              }
+            },
+            {
+              "step": "02",
+              "title": "Authenticate if required",
+              "body": "Hier macht Web Template Copy Smoke sichtbar, wo im Ablauf Friktion, L\u00fccken oder Wartezeit entstehen.",
+              "points": [
+                "Engpass",
+                "Signal",
+                "Pfad"
+              ],
+              "icon": "detect",
+              "preview": {
+                "type": "bars",
+                "title": "Authenticate if required",
+                "metrics": [
+                  {
+                    "label": "Engpass",
+                    "value": "24,6%",
+                    "fill": 92
+                  },
+                  {
+                    "label": "Signal",
+                    "value": "18,7%",
+                    "fill": 74
+                  },
+                  {
+                    "label": "Pfad",
+                    "value": "12,1%",
+                    "fill": 48
+                  }
+                ]
+              }
+            },
+            {
+              "step": "03",
+              "title": "Enter primary workflow data",
+              "body": "Verdichte das Ergebnis zu einer klaren Priorit\u00e4t mit Ownership und sofortigem n\u00e4chsten Schritt.",
+              "points": [
+                "Priorit\u00e4t",
+                "Owner",
+                "N\u00e4chster Schritt"
+              ],
+              "icon": "impact",
+              "preview": {
+                "type": "table",
+                "title": "Enter primary workflow data",
+                "rows": [
+                  {
+                    "label": "Priorit\u00e4t",
+                    "value": "Hoch"
+                  },
+                  {
+                    "label": "Owner",
+                    "value": "Zugewiesen"
+                  },
+                  {
+                    "label": "N\u00e4chster Schritt",
+                    "value": "Bereit"
+                  }
+                ]
+              }
+            },
+            {
+              "step": "04",
+              "title": "Submit primary action",
+              "body": "Schlie\u00dfe den Kreis mit Ergebnis, Follow-up und dem Signal, ob der neue Ablauf wirklich besser funktioniert.",
+              "points": [
+                "Ergebnis",
+                "Follow-up",
+                "Wirkung"
+              ],
+              "icon": "action",
+              "preview": {
+                "type": "line",
+                "title": "Submit primary action",
+                "beforeLabel": "Vorher",
+                "afterLabel": "Nachher"
+              }
+            }
+          ]
+        },
+        "pricing": {
+          "title": "Preise f\u00fcr Web Template Copy Smoke ohne unn\u00f6tige Komplexit\u00e4t.",
+          "description": "Klar gestaffelt f\u00fcr internal product builders und direkt am Produktwert ausgerichtet.",
+          "monthlyLabel": "Monatlich",
+          "yearlyLabel": "J\u00e4hrlich",
+          "yearlyDiscountLabel": "-20%",
+          "featuredLabel": "Empfohlen"
+        }
+      }
+    }
+  }
+}

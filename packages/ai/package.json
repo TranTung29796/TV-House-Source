@@ -1,0 +1,24 @@
+{
+  "name": "@datbuilds/ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf .turbo node_modules"
+  },
+  "dependencies": {
+    "@datbuilds/config": "workspace:*",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@datbuilds/eslint-config": "workspace:*",
+    "@datbuilds/tsconfig": "workspace:*",
+    "eslint": "^9.11.1",
+    "typescript": "^5.6.2"
+  }
+}
